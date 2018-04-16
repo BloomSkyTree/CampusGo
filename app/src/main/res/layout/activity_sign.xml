@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_background"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.lanyetc.campusgo.ui.activity.SignActivity">
+
+    <ImageButton
+        android:id="@+id/sign_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/backbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/et_sign_password"
+        android:layout_width="225dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="332dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="monospace"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textColor="@color/colorTextInput"
+        android:textSize="18sp"
+        android:theme="@style/loginEditTextStyle"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_sign_username" />
+
+    <EditText
+        android:id="@+id/et_sign_username"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="monospace"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textColor="@color/colorTextInput"
+        android:textSize="18sp"
+        android:theme="@style/loginEditTextStyle"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/et_sign_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/next_btn"
+        android:layout_width="151dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="256dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="6dp"
+        android:adjustViewBounds="true"
+        android:background="@mipmap/next_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_sign_password" />
+
+    <ImageButton
+        android:id="@+id/sign_login_btn"
+        android:layout_width="98dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="233dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/sign_loginbtn_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next_btn" />
+
+</android.support.constraint.ConstraintLayout>

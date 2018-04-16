@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- EditText -->
+    <color name="edit_text_normal_color">#e8ae9b</color>
+    <color name="edit_text_activated_color">#e8ae9b</color>
+    <color name="colorTextHint">#bdccd3</color>
+    <color name="colorTextInput">#6b808a</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorAnswerbg">#e6eff3</color>
+    <color name="colorBuilding">#a8acae</color>
+</resources>
